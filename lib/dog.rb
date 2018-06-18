@@ -18,6 +18,3 @@ class Dog
     end
   end
 end
-
-dog =  Dog.new("Pluto")
-puts dog.name
