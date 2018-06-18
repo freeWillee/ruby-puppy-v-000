@@ -1,6 +1,6 @@
 def Dog
   @@all = []
-  
+
   attr_accessor :name
 
   def initialize(name)
@@ -18,3 +18,6 @@ def Dog
     end
   end
 end
+
+dog =  Dog.new("Pluto")
+puts dog.name
